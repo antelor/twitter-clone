@@ -1,6 +1,7 @@
 import './App.css';
 import TweetsContainer from './components/TweetsContainer';
 import Navbar from './components/Navbar';
+import Rightbar from './components/Rightbar';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <TweetsContainer />
+      <Rightbar />
     </div>
   );
 }

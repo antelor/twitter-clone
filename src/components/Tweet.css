@@ -1,6 +1,6 @@
 .twContainer{
-    border-top: 0.2px solid grey;
-    border-bottom: 0.2px solid grey;
+    border-top: 0.2px solid rgba(209, 209, 209, 0.5);
+    border-bottom: 0.2px solid rgba(209, 209, 209, 0.5);
     display:flex;
 }
 

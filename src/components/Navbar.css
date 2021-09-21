@@ -1,7 +1,7 @@
 
 .nav-menu {
     background-color: white;
-    border: 0.2px solid gray;
+    border: 0.2px solid rgba(209, 209, 209, 0.5);
     width: 30%;
     height: 100vh;
     display: flex;
@@ -20,6 +20,10 @@
 li{
     padding-top: 2em;
     font-size: large;
+}
+
+li:nth-child(1){
+    padding-top: 0;
 }
 
 a{
@@ -60,10 +64,12 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -15px;
 }
 
 .tweetLink > span{
     display: flex;
     position: relative;
+    color: white;
     bottom: 17px;
 }
