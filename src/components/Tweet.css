@@ -1,0 +1,44 @@
+.twContainer{
+    margin:1em;
+    width:50%;
+    border: 0.5px solid grey;
+    display:flex;
+}
+
+.twImg > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding:15px;
+}
+
+.twHeader {
+    padding-top: 1em;
+}
+
+.twHeader > span{
+    padding-left:7px;
+}
+
+.twHeader > span:nth-child(1){
+    padding-left:0px;
+}
+
+.userat{
+    color: grey;
+}
+
+.time{
+    color: grey;
+}
+
+.twText{
+    padding-top: 0.2em;
+}
+
+.twFooter{
+    display: flex;
+    padding:1em 0 0.5em 0;
+    justify-content: space-between;
+    width: 85%;
+}
