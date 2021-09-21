@@ -15,7 +15,7 @@ function Navbar() {
                 <li><a href="#">Lists</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">More</a></li>
-                <li>Tweet</li>
+                <li class="tweetLink"><span>Tweet</span></li>
             </ul>
 
             <div className="userInfo">
