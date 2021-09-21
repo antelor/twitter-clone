@@ -1,7 +1,6 @@
 .twContainer{
-    margin:1em;
-    width:50%;
-    border: 0.5px solid grey;
+    border-top: 0.2px solid grey;
+    border-bottom: 0.2px solid grey;
     display:flex;
 }
 
@@ -34,11 +33,12 @@
 
 .twText{
     padding-top: 0.2em;
+    width:95%;
 }
 
 .twFooter{
     display: flex;
-    padding:1em 0 0.5em 0;
+    padding:1em 0 1em 0;
     justify-content: space-between;
     width: 85%;
 }
